@@ -27,7 +27,9 @@ for dm in tweepy.Cursor(api.get_direct_messages, count=50).items():
     if sender_id in responded_to: # already responded to this person recently
         continue
 
-    print("sending message to", sender_id)
+    # useful for debugging, but shouldn't let this get logged in a public place
+    #   like a GitHub action...
+    # print("sending message to", sender_id)
     api.send_direct_message(recipient_id=sender_id, text=config["message"])
     responded_to.append(sender_id)
 
