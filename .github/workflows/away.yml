@@ -1,4 +1,4 @@
-name: Verification Tests
+name: Away Message
 
 on:
   workflow_dispatch:
