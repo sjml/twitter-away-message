@@ -2,8 +2,8 @@
 
 I want to take an extended break from Twitter, but I have some friends who only
 think to contact me there and might think I'm ignoring them. This resurrects the
-old AIM away message concept for Twitter DMs. (Note, it only responds to DMs, not
-regular Twitter mentions.)
+old AIM away message concept for Twitter DMs. (Remember AIM? AIM was great.) Note, 
+it only responds to DMs, not regular Twitter mentions.
 
 You'll need credentials for a [Twitter Developer](https://developer.twitter.com/)
 account. Once you have them, rename `credentials.json.base` to simply 
