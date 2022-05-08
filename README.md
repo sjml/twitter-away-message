@@ -17,10 +17,11 @@ You can specify the actual message that is sent and the start of your away time
 in the `config.json` file. The `start_date` is an ISO-8601-formatted date string; 
 the script will not look at DMs before that time. 
 
-You probably want to set this up as a cron job somewhere. Note that DMs can take
-several minutes before they're available to the API, so you probably don't want 
-this to run more than every 10 minutes. (I've set it to go once per hour, just to 
-be safe.)
+You probably want to set this up as a cron job somewhere, or a GitHub action or 
+whatever makes the most sense for you. Note, though, that DMs can take several 
+minutes before they're available to the API, so you probably don't want this to 
+run more than every 10 minutes. (I've set it to go once per hour, just to be 
+safe.)
 
 Enjoy; use your powers only for good; etc. 
 
